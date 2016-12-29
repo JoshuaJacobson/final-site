@@ -1,0 +1,13 @@
+.inlineBlock {
+    display: inline-block;
+}
+a.twitter-timeline {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 200%;
+}
+#Logo_wrapper {
+    font-size: 200%;
+}

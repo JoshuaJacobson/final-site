@@ -1,0 +1,40 @@
+#Container {
+    display: table;
+    width: 100%;
+    background-color: #add8e6; /*html lightblue*/
+
+}
+.Quarter {
+    display: table-cell;
+    background: url('resources/cogwheels_gold.png');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.Countdown {
+    font-size: 400%;
+    width: 100%;
+    margin-left: 0%;
+}
+p {
+    margin-left: 25%;
+    width: 50%;
+}
+footer {
+    font-size: 200%;
+}
+.QuarterImage {
+    width: 50%;
+}
+#Information {
+    display: table-row;
+}
+a.QuarterButton {
+    color: black;
+    text-decoration: none;
+    background-color: #add8d6; /*html lightblue - #000010*/
+    border: 2px white solid;
+    border-radius: 25px;
+    font-size: 200%;
+    padding: 0 25px 0 25px;
+}

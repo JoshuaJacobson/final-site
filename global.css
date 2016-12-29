@@ -1,0 +1,56 @@
+.mediaButton {
+    width: 10%;
+    height: auto;
+    cursor: hand;
+}
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+    color: #00ff00;
+
+}
+#red {
+    color: #f00;
+}
+#Logo {
+    width: 100%;
+}
+
+#Logo_wrapper {
+    width: 100%;
+    font-size: 400%;
+}
+hr {
+    border: 0;
+    background: #00ffff;
+    height: 2em;
+}
+hr.smallHr {
+    height: .5em;
+}
+p.normalSized {
+    font-size: medium;
+}
+footer {
+    color: #000;
+}
+a {
+    color: #0f0;
+}
+a:visited {
+    color: #0ff;
+}
+#content {
+    width: 50%;
+    background: #707070;
+    margin-left: 25%;
+    font-size: 200%;
+}
+#content > p {
+    text-align: left;
+    text-indent: 2em;
+}

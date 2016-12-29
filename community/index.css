@@ -1,0 +1,17 @@
+#cnews {
+    width: 50%;
+    height: auto;
+    background: linear-gradient(0deg, #006, #00b);
+    padding: 1em;
+}
+#myths {
+    margin-left: 2em;
+    margin-right: 2em;
+    background: #888;
+}
+#head, footer {
+    background-color: gray;
+}
+body {
+    background: url("/resources/pipes.png") repeat;
+}
