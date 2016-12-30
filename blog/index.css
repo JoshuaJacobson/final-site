@@ -6,7 +6,7 @@
     display: table-cell;
 }
 #blog > p, #newsletter > p {
-    margin: 10% 0 10% 0;
+    margin: 0 10% 0 10%;
 }
 #Container {
     display: table;
