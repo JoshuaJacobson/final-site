@@ -1,4 +1,5 @@
 #blog, #newsletter {
     width: 50%;
     background: url("/resources/cogwheels_gold.png") repeat-y;
+    display: inline-block;
 }
