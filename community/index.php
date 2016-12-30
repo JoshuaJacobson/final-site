@@ -20,7 +20,7 @@ require "../resources.php";
     </h1>
     <hr>
     <p>
-        <a href="index.php">Return to homepage</a>
+        <a href="/index.php">Return to homepage</a>
     </p>
 </div>
 

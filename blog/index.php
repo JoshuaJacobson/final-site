@@ -19,7 +19,7 @@ $blog_editor = "Joshua Jacobson";
     Blog and Newsletter
 </h1>
 <p>
-    <a href="index.php">Return to homepage</a>
+    <a href="/index.php">Return to homepage</a>
 </p>
 <hr>
 <div id="blog">
