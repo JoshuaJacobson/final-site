@@ -1,7 +1,8 @@
 <html lang="en-US">
 <head>
     <title>Contact Us!</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="global.css">
     <link rel="stylesheet" type="text/css" href="contact.css">
     <script type="text/javascript" src="scripts.js"></script>

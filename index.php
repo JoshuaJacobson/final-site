@@ -41,7 +41,8 @@ require 'resources.php';
 <html lang="en-US">
 <head>
     <title>Cadillac Connectors Website</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="global.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="scripts.js"></script>
