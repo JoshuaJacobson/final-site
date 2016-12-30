@@ -30,6 +30,7 @@ $blog_editor = "Joshua Jacobson";
             The blog is written by <?php echo $blog_writers ?> and edited by <?php echo $blog_editor ?>. During build season, expect nearly constant posts,
             and in the off-season there may be as few as one per month.
         </p>
+        <iframe src="articles/index.php?embed=true&article=latest" id="embed"></iframe>
     </div>
     <div id="newsletter">
         <h2><i>Connections</i></h2>
