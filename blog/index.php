@@ -31,6 +31,7 @@ $blog_editor = "Joshua Jacobson";
             and in the off-season there may be as few as one per month.
         </p>
         <iframe src="articles/index.php?embed=true&article=latest" id="embed" onclick="embed()"></iframe>
+        <button onclick="embed()">Test</button>
     </div>
     <div id="newsletter">
         <h2><i>Connections</i></h2>
