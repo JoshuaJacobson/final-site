@@ -11,7 +11,7 @@ $blog_editor = "Joshua Jacobson";
     <link rel="stylesheet" type="text/css" href="../global.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="../scripts.js"></script>
-    <!--<script type="text/javascript" src="index.js"></script>-->
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 <h1 id="Logo_wrapper">
@@ -30,7 +30,7 @@ $blog_editor = "Joshua Jacobson";
             The blog is written by <?php echo $blog_writers ?> and edited by <?php echo $blog_editor ?>. During build season, expect nearly constant posts,
             and in the off-season there may be as few as one per month.
         </p>
-        <iframe src="articles/index.php?embed=true&article=latest" id="embed"></iframe>
+        <iframe src="articles/index.php?embed=true&article=latest" id="embed" onclick="embed()"></iframe>
     </div>
     <div id="newsletter">
         <h2><i>Connections</i></h2>
