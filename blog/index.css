@@ -3,5 +3,9 @@
     background: url('/resources/cogwheels_gold.png');
     background-repeat: repeat-y;
     background-size: 100% auto;
-    display: inline-block;
+    display: table-cell;
+}
+#Container {
+    display: table;
+    width: 100%;
 }
