@@ -19,6 +19,9 @@ require "../resources.php";
         Connectors + Community
     </h1>
     <hr>
+    <p>
+        <a href="index.php">Return to homepage</a>
+    </p>
 </div>
 
 <div id="content">
