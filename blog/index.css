@@ -5,7 +5,7 @@
     background-size: 100% auto;
     display: table-cell;
 }
-#blog.p, #newsletter.p {
+#blog > p, #newsletter > p {
     margin: 10% 0 10% 0;
 }
 #Container {
