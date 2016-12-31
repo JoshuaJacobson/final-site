@@ -50,8 +50,8 @@ class articles
                 $title = "Old articles are going to be archived";
 
                 //Add paragraphs like this
-                $paragraphs->append("The old articles from the 2016 season are set to be archieved in  location to be determined.");
-                $paragraphs->append("They will be available shortly, please wait.");
+                $paragraphs->append('The old articles from the 2016 season are set to be archieved in  location to be determined.');
+                $paragraphs->append('They will be available shortly, please wait.');
 
                 break;
 
