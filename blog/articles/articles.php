@@ -42,10 +42,10 @@ class articles
 
     static function dateFormatter($date, $type) {
         if($type=="date") {
-            return date('YYYY-mm-dd', strtotime($date));
+            return date('Y-m-d', strtotime($date));
         }
         if($type=="humandate") {
-            return date('mmm dd, yyyy', strtotime($date));
+            return date('m d, y', strtotime($date));
         }
         return null;
     }
