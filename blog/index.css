@@ -13,3 +13,9 @@
     width: 100%;
     font-size: 200%;
 }
+#embed {
+    border: 0;
+    width: 80%;
+    max-height: 10em;
+    min-height: 2em;
+}

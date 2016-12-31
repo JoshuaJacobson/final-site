@@ -57,6 +57,7 @@ class articles
         foreach ($paragraphs as $p) {
             echo "<p>$p</p>";
         }
+        echo "</article>";
     }
 
     static function dateFormatter($date, $type) {

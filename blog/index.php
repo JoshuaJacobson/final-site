@@ -1,6 +1,7 @@
 <?php
 $blog_writers = "Deion Vo, McKinsey Crozier, and Tucker Bachman";
 $blog_editor = "Joshua Jacobson";
+require '../resources.php';
 ?>
 
 <html lang="en-US">
@@ -31,7 +32,8 @@ $blog_editor = "Joshua Jacobson";
             and in the off-season there may be as few as one per month.
         </p>
         <iframe src="articles/index.php?embed=true&article=latest" id="embed" onclick="embed()"></iframe>
-        <button onclick="embed()">Test</button>
+        <br>
+        <button onclick="embed()">Read more...</button>
     </div>
     <div id="newsletter">
         <h2><i>Connections</i></h2>
@@ -41,5 +43,8 @@ $blog_editor = "Joshua Jacobson";
         </p>
     </div>
 </div>
+<?php
+    resources::footer();
+?>
 </body>
 </html>
