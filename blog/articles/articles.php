@@ -54,6 +54,9 @@ class articles
         echo "<article>";
         echo "<h1>$title</h1>";
         echo "<address class=\"author\">$author on <time datetime='$date' title='$longdate'>$humandate</time>";
+        foreach ($paragraphs as $p) {
+            echo "<p>$p</p>";
+        }
     }
 
     static function dateFormatter($date, $type) {
