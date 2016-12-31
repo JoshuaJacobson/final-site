@@ -45,7 +45,7 @@ class articles
             return date('Y-m-d', strtotime($date));
         }
         if($type=="humandate") {
-            return date('m d, y', strtotime($date));
+            return date('m ([ .\t-])* dd [,.stndrh\t ]+ y', strtotime($date));
         }
         return null;
     }
