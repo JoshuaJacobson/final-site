@@ -12,7 +12,7 @@ class articles
         //Add one to this number everytime a new article is created
         $articles = 0;
         echo self::dateFormatter("05/16/2016", "humandate");
-        //echo self::dateFormatter("05/16/2016", "date");
+        echo self::dateFormatter("05/16/2016", "date");
         echo "05/16/2016";
 
         //Do not change this
@@ -41,7 +41,7 @@ class articles
     }
 
     static function dateFormatter($date, $type) {
-        $new = DateTime::createFromFormat("MM-DD-YYYY", $date);
+        $new = DateTime::createFromFormat("MM/DD/YYYY", $date);
         if($type=="date") {
             return $new->format("YYYY-MM-DD");
         }
