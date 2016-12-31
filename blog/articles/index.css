@@ -1,0 +1,11 @@
+article {
+    font-size: 200%;
+    width: 50%;
+    padding-left: 50%;
+}
+article > address {
+    font-size: 50%;
+}
+article > p {
+    text-align: left;
+}
