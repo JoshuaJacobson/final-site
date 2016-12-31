@@ -19,6 +19,9 @@ class articles
         if($id == "latest" || $id > $articles) {
             $id = $articles;
         }
+        if ($id < 0) {
+            $id = 0;
+        }
         $author = "";
         $date = "";
         $title = "";
