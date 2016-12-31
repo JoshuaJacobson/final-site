@@ -11,7 +11,7 @@ class articles
     static function getArticle($id) {
         //Add one to this number everytime a new article is created
         $articles = 0;
-        //echo self::dateFormatter("05/16/2016", "humandate");
+        echo self::dateFormatter("05/16/2016", "humandate");
         //echo self::dateFormatter("05/16/2016", "date");
         echo "05/16/2016";
 
