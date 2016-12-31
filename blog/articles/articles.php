@@ -21,7 +21,6 @@ class articles
         }
         if(!is_numeric($id) || strrpos($id, ".")) {
             $id = $articles;
-            echo "err";
         }
         return $id;
     }
