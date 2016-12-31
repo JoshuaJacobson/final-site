@@ -36,6 +36,7 @@ if($embellish == true) {
     echo '<button id="next" onclick="next(' . $article . ')">Next</button>';
     echo '<button id="previous" onclick="previous(' . $article . ')">Previous</button>';
     echo '<button id="first" onclick="first()">First</button>';
+    resources::footer();
 }
 ?>
 
