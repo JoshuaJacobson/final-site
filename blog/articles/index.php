@@ -3,8 +3,8 @@ $embed = $_GET["embed"];
 $article = $_GET["article"];
 require '../../resources.php';
 require 'articles.php';
-if ($embed == "true") {
-    $embellish = false;
+if (!$embed == "true") {
+    $embellish = true;
 }
 ?>
 <html lang="en-US">
