@@ -19,7 +19,7 @@ class articles
         if ($id < 0) {
             $id = 0;
         }
-        if(!is_numeric($id) || !strrpos($id, ".")) {
+        if(!is_numeric($id) || strrpos($id, ".")) {
             $id = $articles;
             echo "err";
         }
