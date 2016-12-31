@@ -41,7 +41,7 @@ class articles
     }
 
     static function dateFormatter($date, $type) {
-        //$new = DateTime::createFromFormat("MM/DD/YYYY", $date);
+        $new = DateTime::createFromFormat("MM/DD/YYYY", $date);
         if($type=="date") {
             //return $new->format("YYYY-MM-DD");
         }
