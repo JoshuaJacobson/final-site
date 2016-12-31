@@ -26,9 +26,7 @@ if($embellish == true) {
 }
 
 articles::getArticle($article);
-if ($article == "latest") {
-    $article = articles::$articles;
-}
+$article = articles::parseId($article);
 
 if($embellish == true) {
     echo "<br>";

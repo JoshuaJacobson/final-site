@@ -11,17 +11,25 @@ class articles
     //Increment this number everytime a new article is created
     public static $articles = 0;
 
-    static function getArticle($id) {
-
-
-        //Do not change this
-        $articles = articles::$articles;
+    static function parseId($id) {
+        $articles = self::$articles;
         if($id == "latest" || $id > $articles) {
             $id = $articles;
         }
         if ($id < 0) {
             $id = 0;
         }
+        if (gettype($id) != "int") {
+            $id = "bread";
+        }
+        return $id;
+    }
+
+    static function getArticle($id) {
+
+
+        //Do not change this
+        $id = self::parseId($id);
         $author = "";
         $date = "";
         $title = "";
