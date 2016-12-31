@@ -3,7 +3,7 @@ $embed = $_GET["embed"];
 $article = $_GET["article"];
 require '../../resources.php';
 require 'articles.php';
-if ($embed == true) {
+if ($embed == "true") {
     $embellish = false;
 }
 ?>

@@ -15,7 +15,7 @@ class articles
 
 
         //Do not change this
-        $articles = articles;
+        $articles = articles::$articles;
         if($id == "latest" || $id > $articles) {
             $id = $articles;
         }
