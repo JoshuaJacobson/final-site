@@ -19,10 +19,10 @@ class articles
         if ($id < 0) {
             $id = 0;
         }
-        /*if (gettype($id) != "int") {
-            echo gettype($id);
-            $id = "bread";
-        }*/
+        if(!is_numeric($id) || !strrpos($id, ".")) {
+            $id = $articles;
+            echo "err";
+        }
         return $id;
     }
 
