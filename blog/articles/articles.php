@@ -67,9 +67,9 @@ class articles
     static function printArticle($author, $date, $longdate, $humandate, $title, $paragraphs) {
         echo "<article>";
         echo "<h1>$title</h1>";
-        echo "<address class=\"author\">$author on <time datetime='$date' title='$longdate'>$humandate</time>";
+        echo "<address class=\"author\">" . $author . " on <time datetime='$date' title='$longdate'>$humandate</time>";
         foreach ($paragraphs as $p) {
-            echo "<p>$p</p>";
+            echo "<p>" . $p . "</p>";
         }
         echo "</article>";
     }
