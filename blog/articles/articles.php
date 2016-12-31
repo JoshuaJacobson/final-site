@@ -41,12 +41,11 @@ class articles
     }
 
     static function dateFormatter($date, $type) {
-        $new = DateTime::createFromFormat("MM/DD/YYYY", $date);
         if($type=="date") {
-            //return $new->format("YYYY-MM-DD");
+            date('YYYY-mm-dd', strtotime($date));
         }
         if($type=="humandate") {
-            //return $new->format("Mmm dd, yyyy");
+            date('mmm dd, yyyy', strtotime($date));
         }
         return null;
     }
