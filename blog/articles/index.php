@@ -3,5 +3,5 @@ $embed = $_GET["embed"];
 $article = $_GET["article"];
 require '../../resources.php';
 require 'articles.php';
-//articles::getArticle("0");
+articles::getArticle("0");
 ?>
