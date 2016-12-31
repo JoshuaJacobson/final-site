@@ -7,7 +7,7 @@ function next(current) {
         url = url.substring(0, url.indexOf("/articles/"));
     }
     console.log(url);
-    window.location.href = url + "/blog/articles/index.php?article=" + (current + 1);
+    window.location.href = url + "/articles/index.php?article=" + (current + 1);
 }
 
 function previous(current) {
@@ -16,7 +16,7 @@ function previous(current) {
         url = url.substring(0, url.indexOf("/articles/"));
     }
     console.log(url);
-    window.location.href = url + "/blog/articles/index.php?article=" + (current - 1);
+    window.location.href = url + "/articles/index.php?article=" + (current - 1);
 }
 
 function latest() {
@@ -25,7 +25,7 @@ function latest() {
         url = url.substring(0, url.indexOf("/articles/"));
     }
     console.log(url);
-    window.location.href = url + "/blog/articles/index.php?article=latest";
+    window.location.href = url + "/articles/index.php?article=latest";
 }
 
 function first() {
@@ -34,5 +34,5 @@ function first() {
         url = url.substring(0, url.indexOf("/articles/"));
     }
     console.log(url);
-    window.location.href = url + "/blog/articles/index.php?article=0";
+    window.location.href = url + "/articles/index.php?article=0";
 }
