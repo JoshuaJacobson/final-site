@@ -14,7 +14,7 @@ class articles
         echo self::dateFormatter("05/16/2016", "humandate");
         echo self::dateFormatter("05/16/2016", "date");
         echo "05/16/2016";
-        return;
+
         //Do not change this
         if($id == "latest") {
             $id = $articles;
@@ -47,5 +47,6 @@ class articles
         if($type=="humandate") {
             return $new->format("Mmm dd, yyyy");
         }
+        return null;
     }
 }
