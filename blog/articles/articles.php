@@ -20,6 +20,7 @@ class articles
             $id = 0;
         }
         if (gettype($id) != "int") {
+            echo gettype($id);
             $id = "bread";
         }
         return $id;
