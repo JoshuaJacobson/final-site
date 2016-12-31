@@ -7,5 +7,5 @@ function embed() {
         url = url.substring(0, url.indexOf("/blog/"));
     }
     console.log(url);
-    window.location.href = url + "";
+    window.location.href = url + "/blog/articles/index.php?article=latest";
 }
