@@ -8,12 +8,15 @@
  */
 class articles
 {
+    //Increment this number everytime a new article is created
+    public static $articles = 0;
+
     static function getArticle($id) {
-        //Add one to this number everytime a new article is created
-        $articles = 0;
+
 
         //Do not change this
-        if($id == "latest") {
+        $articles = articles;
+        if($id == "latest" || $id > $articles) {
             $id = $articles;
         }
         $author = "";
