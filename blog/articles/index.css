@@ -15,3 +15,7 @@ article > p {
     width: 25%;
     height: auto;
 }
+.largeImage {
+    width: 100%;
+    height: auto;
+}

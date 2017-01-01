@@ -38,7 +38,9 @@ function first() {
 }
 
 function expandImage(e) {
-    var a = document.getElementsByClassName("image");
-    a.style.width = "25%";
-    e.style.width = "100%";
+    var a = document.getElementsByClassName("largeImage");
+    for(var b in a) {
+        b.className = "image";
+    }
+    e.className = "largeImage";
 }
