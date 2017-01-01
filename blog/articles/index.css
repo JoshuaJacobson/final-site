@@ -3,10 +3,10 @@ article {
     width: 50%;
     padding-left: 25%;
 }
-article > address {
+address {
     font-size: 50%;
 }
-article > p {
+p {
     text-align: left;
     font-style: normal;
 }
