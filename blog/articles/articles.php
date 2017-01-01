@@ -81,7 +81,7 @@ class articles
             echo "<p>" . $p . "</p>";
         }
         foreach ($images as $i) {
-            echo '<img src="/blog/articles/images/' . $i . '" id="' . $i . '" class="image" onclick="expandImage(this)" >';
+            echo '<img src="/blog/articles/images/' . $folder . $i . '" id="' . $i . '" class="image" onclick="expandImage(this)" >';
         }
         echo "</article>";
     }
