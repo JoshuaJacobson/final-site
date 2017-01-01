@@ -94,7 +94,7 @@ class articles
             return date('M jS, Y', strtotime($date));
         }
         if($type=="folder") {
-            return date("Y/m/d", strtotime($date));
+            return date("Y/m/d/", strtotime($date));
         }
         return null;
     }
