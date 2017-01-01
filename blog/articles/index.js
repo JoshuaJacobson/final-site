@@ -36,3 +36,9 @@ function first() {
     console.log(url);
     window.location.href = url + "/articles/index.php?article=0";
 }
+
+function expandImage(e) {
+    var a = document.getElementsByClassName("image");
+    a.style.width = "25%";
+    e.style.width = "100%";
+}

@@ -9,4 +9,9 @@ address {
 p {
     text-align: left;
     font-style: normal;
+    text-indent: 2em;
+}
+.image {
+    width: 25%;
+    height: auto;
 }

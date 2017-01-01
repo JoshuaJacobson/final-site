@@ -34,6 +34,7 @@ class articles
         $date = "";
         $title = "";
         $paragraphs = new ArrayObject();
+        $images = new ArrayObject();
 
         //Add cases to this for every new article
         switch ($id) {
@@ -53,23 +54,34 @@ class articles
                 $paragraphs->append('The old articles from the 2016 season are set to be archieved in  location to be determined.');
                 $paragraphs->append('They will be available shortly.');
 
+                //Add Images like this
+                $images->append("01.png");
+                //They will be search for in /blog/articles/images/YYYY/MM/DD/
+
                 break;
 
             //Article Number 1
             case 1:
+                $author = "Joshua Jacobson";
+                $date = "01/01/17";
+                $title = "2016 Archives";
+
                 break;
         }
 
         //Do not change this
-        self::printArticle($author, self::dateFormatter($date, "date"), self::dateFormatter($date, "humandate"), $date, $title, $paragraphs);
+        self::printArticle($author, self::dateFormatter($date, "date"), self::dateFormatter($date, "humandate"), $date, $title, $paragraphs, $images, self::dateFormatter($date, "folder"));
     }
 
-    static function printArticle($author, $date, $longdate, $humandate, $title, $paragraphs) {
+    static function printArticle($author, $date, $longdate, $humandate, $title, $paragraphs, $images, $folder) {
         echo "<article>";
         echo "<h1>$title</h1>";
         echo "<address class=\"author\">" . $author . " on <time datetime='$date' title='$longdate'>$humandate</time></address>";
         foreach ($paragraphs as $p) {
             echo "<p>" . $p . "</p>";
+        }
+        foreach ($images as $i) {
+            echo '<img src="/blog/articles/images/' . $i . '" id="' . $i . '" class="image" onclick="expandImage(this)" >';
         }
         echo "</article>";
     }
@@ -80,6 +92,9 @@ class articles
         }
         if($type=="humandate") {
             return date('M jS, Y', strtotime($date));
+        }
+        if($type=="folder") {
+            return date("Y/m/d", strtotime($date));
         }
         return null;
     }
