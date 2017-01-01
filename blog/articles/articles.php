@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 0;
+    public static $articles = 1;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -65,7 +65,7 @@ class articles
                 $author = "Joshua Jacobson";
                 $date = "01/01/17";
                 $title = "2016 Archives";
-
+                $paragraphs->append('<a href="/blog/articles/archives/newsfeed.html" >Here</a> is the link to the 2016 archives.');
                 break;
         }
 
