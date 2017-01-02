@@ -88,7 +88,7 @@
                 <td>Yes</td>
                 <td>Yes</td>
             </tr>
-            <tr>
+            <tr class="benefits_2">
                 <td>Company name on banner</td>
                 <td>No</td>
                 <td>No</td>
@@ -96,7 +96,7 @@
                 <td>Yes</td>
                 <td>Yes</td>
             </tr>
-            <tr>
+            <tr class="benefits_1">
                 <td>Company name on robot</td>
                 <td>No</td>
                 <td>No</td>
@@ -104,7 +104,7 @@
                 <td>Yes</td>
                 <td>Yes</td>
             </tr>
-            <tr>
+            <tr class="benefits_2">
                 <td>Company name below logo on site</td>
                 <td>No</td>
                 <td>No</td>

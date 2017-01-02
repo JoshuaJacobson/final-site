@@ -1,3 +1,13 @@
 header, footer {
     background-color: gray;
 }
+ul {
+    text-align: left;
+    font-size: 90%;
+}
+.benefits_1 {
+    background-color: #A4CE39;
+}
+.benefits_2 {
+    background-color: #888888;
+}
