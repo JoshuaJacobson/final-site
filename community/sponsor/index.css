@@ -10,6 +10,6 @@ ul {
 .benefits_2 {
     background-color: #888888;
 }
-table {
-    font-size: 90%;
+#benefits_table {
+    font-size: 50%;
 }
