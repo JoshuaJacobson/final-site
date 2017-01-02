@@ -3,11 +3,13 @@ header, footer {
 }
 ul {
     text-align: left;
-    font-size: 90%;
 }
 .benefits_1 {
     background-color: #A4CE39;
 }
 .benefits_2 {
     background-color: #888888;
+}
+table {
+    font-size: 90%;
 }
