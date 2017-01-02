@@ -13,16 +13,16 @@ require "../resources.php";
 </head>
 <body>
 
-<div id="head">
+<header>
     <h1 id="Logo_wrapper">
         <img src="../resources/connectors_lightgreen.png" id="Logo">
         Connectors + Community
     </h1>
-    <hr>
     <p>
         <a href="/index.php">Return to homepage</a>
     </p>
-</div>
+    <hr>
+</header>
 
 <div id="content">
     <h2>Cadillac News</h2>

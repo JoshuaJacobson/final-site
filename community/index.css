@@ -9,7 +9,7 @@
     margin-right: 2em;
     background: #888;
 }
-#head, footer {
+header, footer {
     background-color: gray;
 }
 body {

@@ -32,7 +32,7 @@ if ( $days >= 7 ) {
     $days = $days % 7;
 }
 $week = "Weeks";
-if ($weeks = 1) {
+if ($weeks == 1) {
     $week = "Week";
 }
 
