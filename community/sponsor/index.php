@@ -55,6 +55,7 @@
     <p>
         All sponsorships are important to us. However, sponsorships of larger value show more support for our program, so we enjoy showing our support for those who donate.
         TODO: This needs verification
+    </p>
         <table id="benefits_table">
             <tr class="benefits_head">
                 <th>Benefit</th>
@@ -113,7 +114,6 @@
                 <td>Yes</td>
             </tr>
         </table>
-    </p>
 </section>
 </body>
 </html>
