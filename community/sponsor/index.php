@@ -35,7 +35,6 @@
         That is where local businesses come in. Support from our community helps us raise the entire cost of our program on a year to year basis.
     </p>
     <h2>Current Sponsors</h2>
-    <p>
         <ul>
             <li>State of Michigan</li>
             <li>Kendall Electric</li>
@@ -50,7 +49,6 @@
             <li>Networking Butler</li>
             <li>G&amp;D Pizza</li>
         </ul>
-    </p>
     <h2 id="benefits">Benefits of sponsorship</h2>
     <p>
         All sponsorships are important to us. However, sponsorships of larger value show more support for our program, so we enjoy showing our support for those who donate.
